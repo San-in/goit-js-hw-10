@@ -30,7 +30,6 @@ return fetch(`${ENDPOINT}/${name}?${SEARCH_OPTIONS}`)
     }
     return response.json();
 }).catch('Oops, there is no country with that name');
-
 }
 
 function renderPage (countries) {
